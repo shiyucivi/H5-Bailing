@@ -1,0 +1,32 @@
+@import '../air/base.scss';
+
+.dateIte {
+    font-size: 15px;
+    color: #535366
+}
+
+.dateItem {
+    font-size: 15px;
+    color: #535366
+}
+
+.dateItemSelectd {
+    color: #1687FF
+}
+
+.cancel {
+    color: #1687FF;
+    font-size: "16px";
+    text-align: center;
+}
+
+.tablShow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #8B8B96;
+    background: #fff;
+    padding: 10px
+}

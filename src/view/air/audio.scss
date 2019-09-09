@@ -1,0 +1,237 @@
+body {
+    background: #04193E;
+    font-family: 'PingFangSC-Regular';
+}
+
+.wrap {
+    margin-top: 0 !important;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
+.am-card,
+.am-card-body,
+.am-list-body,
+.am-list-line .am-list-content,
+.am-list-item {
+    background: none !important;
+    color: #fff !important;
+    border: none !important;
+}
+
+.am-list-item .am-input-label,
+.am-list-item .am-input-control input {
+
+    color: #fff !important;
+}
+
+.am-card-header {
+    // display: none !important;
+}
+
+.wrap_content {
+    // height: -webkit-fill-available;
+    padding: 0 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    color: #fff !important;
+
+    >div {
+        margin: 30px;
+    }
+
+    >div:nth-child(1) {
+        width: 60%;
+        background: rgba(255, 255, 255, .1);
+        border-radius: 10px;
+    }
+
+    >div:nth-child(2) {
+        width: 38%;
+    }
+
+}
+
+.am-card-header,
+.am-card-header-extra .edit span,
+.am-card-header-extra {
+
+    font-size: 22px !important;
+}
+
+.audio_gray>p {
+    font-size: 24px !important;
+}
+
+.hotel_info_title img {
+    width: 84px !important;
+    height: 125px !important;
+}
+
+.audio_gray div {
+    >p {
+        font-size: 24px !important;
+
+    }
+
+    color: #fff !important;
+
+
+
+    sup {
+        font-size: 20px !important;
+        padding: 5px;
+        color: rgba(255, 255, 255, .6) !important;
+        background: none !important;
+        border: 1px solid rgb(153, 153, 163) !important;
+    }
+
+}
+
+.one_width {
+    .user_btn {
+        left: 50%;
+        margin-left: -102px;
+    }
+}
+
+// 机票头
+.am-card-body .gray {
+    color: #fff;
+}
+
+.am-card-body .am-wingblank {
+    >div {
+        >p {
+            font-size: 24px;
+
+        }
+    }
+
+    .am-list {
+
+        .am-list-body {
+
+            .flexR,
+            .am-list-line {
+                padding-right: 0;
+            }
+
+            .am-list-item>div> {
+
+                input,
+                .am-input-label {
+                    font-size: 20px !important;
+                    width: 120px;
+
+                }
+            }
+
+            .am-list-line>div {
+                >input {
+                    font-size: 18px !important;
+                    max-width: 140px;
+                }
+
+                font-size: 18px !important;
+            }
+
+        }
+    }
+}
+
+.flex {
+
+
+    .topAir {
+        font-size: 14px !important;
+
+        .bgText {
+            font-size: 30px !important;
+            min-width: 100px !important;
+            text-align: center;
+        }
+
+        >span {
+
+            font-size: 30px !important;
+        }
+    }
+}
+
+.am-card-body {
+    .edit {
+        font-size: 20px !important;
+
+    }
+
+    .am-wingblank {
+        >div>div>p {
+            font-size: 19px !important;
+
+        }
+    }
+}
+
+.am-card .am-card-body .am-wingblank .edit input {
+    font-size: 20px !important;
+
+}
+
+.flexR {
+    font-size: 24px !important;
+
+    .topAir {
+        font-size: 14px !important;
+
+        .bgText {
+            font-size: 30px !important;
+            min-width: 100px !important;
+            text-align: center;
+        }
+
+        >span {
+
+            font-size: 20px !important;
+        }
+    }
+}
+
+.xiechenginfo {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    line-height: 30px;
+    opacity: 0.3;
+}
+
+.totlePrice {
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+
+    .yellow_text {
+        color: #F5AB00;
+    }
+}
+
+.edit {}
+
+// toast
+.am-toast-text {
+    font-size: 30px;
+}
+
+.add_btn {
+    width: 100px;
+    height: 32px;
+    background: rgba(255, 255, 255, .1);
+    border-radius: 32px;
+    line-height: 32px;
+    text-align: center;
+    color: #fff;
+    font-size: 21px;
+}

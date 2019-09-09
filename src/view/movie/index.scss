@@ -1,0 +1,214 @@
+.movie_wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 50px;
+    flex-shrink: 0;
+    height: -webkit-fill-available;
+    background: url('../../assets/img/bg_carbook@2x.png')no-repeat;
+    color: #fff;
+    font-size: 24px;
+
+    >div {
+        margin: 5px 0;
+    }
+
+    .movie_wrap_info {
+        color: #F5AB00;
+        text-align: left;
+        width: 100%;
+
+        &>span {
+            margin-right: 10px;
+        }
+    }
+
+    .movie_seat_direct {
+        color: #eee;
+        font-size: 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+
+        img {
+            width: 30px;
+            height: 30px;
+            margin: 0 5px;
+            vertical-align: bottom;
+
+        }
+
+        >span:last-child>img {
+            width: 30px;
+            height: 12px;
+        }
+    }
+
+    .movie_wrap_content {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: space-between;
+        position: relative;
+        max-height: 418px;
+
+        .movie_map {
+            max-width: 60%;
+            overflow: scroll;
+
+            .movie_map_content {
+                width: max-content;
+                position: relative;
+
+                canvas {
+                    margin-top: 10px;
+                }
+
+                .screen_bar {
+                    width: 210px;
+                    height: 10px;
+                    background: #2F427c;
+                    position: absolute;
+                    top: -15px;
+                    left: 50%;
+                    margin-left: -105px;
+                    border-bottom-left-radius: 5px;
+                    border-bottom-right-radius: 5px;
+                }
+
+            }
+
+
+
+
+            padding: 15px 15px 15px 25px;
+            background: linear-gradient(#1D2952, #2D3E76);
+            position: relative;
+        }
+
+        .listTag {
+            font-size: 24px;
+            color: #fff;
+            width: 10px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            position: absolute;
+            top: 0px;
+            left: 10px;
+
+            >span {
+                width: 100%;
+                height: 33px;
+
+            }
+        }
+
+        .movie_select {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-left: 20px;
+            width: 40%;
+            font-size: 24px;
+            padding-bottom: 20px;
+
+
+            &>div>div {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                text-align: center;
+                flex-wrap: wrap;
+            }
+
+            .recommend {
+                &>span {
+                    display: block;
+                    width: 100px;
+                    height: 56px;
+                    background: #3C8491;
+                    line-height: 56px;
+                    border-radius: 5px;
+                    margin-right: 10px;
+                    margin-bottom: 10px;
+
+                }
+            }
+
+            .selected {
+                &>span {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-around;
+                    width: 95px;
+                    height: 32px;
+                    background: url('../../assets/img/bg_movie_seat_selected@2x.png') no-repeat;
+                    background-size: cover;
+                    line-height: 32px;
+                    border-radius: 5px;
+                    margin-right: 10px;
+                    margin-bottom: 10px;
+
+                    padding-left: 5px;
+
+                    &>img {
+                        width: 15px;
+                        height: 15px;
+                    }
+                }
+            }
+        }
+
+        .price_info {
+            font-size: 24px;
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+
+            &>span:nth-child(2) {
+                color: #F5AB00;
+                margin-right: 5px;
+            }
+
+            &>span:nth-child(3) {
+                font-size: 20px;
+                text-decoration: line-through;
+
+            }
+        }
+
+        .pay_btn {
+            display: block !important;
+            width: 160px;
+            height: 36px;
+            background: #2B548E;
+            border-radius: 36px;
+            line-height: 36px;
+            text-align: center;
+            color: #fff;
+
+            &.noway {
+                opacity: 0.3;
+            }
+        }
+
+
+    }
+
+
+
+
+}
+
+.am-tabs-default-bar-content {
+    border: solid rgba(218, 220, 223, 0) 0px;
+}

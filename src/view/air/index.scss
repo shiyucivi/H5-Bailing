@@ -1,0 +1,39 @@
+@import './base.scss';
+
+@media screen and (min-width: 769px) {
+    @import './audio.scss';
+
+}
+
+.wrap {
+    color: lightblue;
+}
+
+.toast_info::after {
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -20px;
+    right: 34px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #4C4C5D transparent;
+}
+
+.tablShow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #8B8B96;
+    background: #fff;
+    padding: 10px
+}
+
+.icon {
+    width: 12px;
+    margin-left: 10px;
+    height: 12px;
+}

@@ -1,0 +1,206 @@
+@media screen and (min-width:769px) {
+
+
+    .one_width {
+        // position: relative;
+        width: 500px;
+
+        .am-list-item .am-list-line .am-list-content {
+            line-height: 0.5 !important;
+        }
+
+        .flexR {
+            background: rgba(255, 255, 255, .1);
+            border-radius: 10px;
+            padding: 0 30px;
+            font-size: 18px !important;
+
+            .edit_icon {
+                height: 30px !important;
+                width: 30px !important;
+                background: rgba(255, 255, 255, .1);
+                border-radius: 10px;
+                padding: 7px;
+            }
+        }
+
+        .am-list .am-list-item.am-checkbox-item .am-list-thumb .am-checkbox-inner {
+            top: 10px !important;
+        }
+    }
+
+    .update_user {
+        margin: 0 auto;
+        width: 400px;
+
+        .flexRinput {
+            font-size: 24px !important;
+        }
+
+        .am-list-item.am-input-item {
+            height: 50px !important;
+            margin: 35px 0 !important;
+        }
+
+        .am-list-item .am-input-label,
+        .am-list-item sup,
+        .am-input-control input {
+            font-size: 22px !important;
+            box-sizing: border-box;
+        }
+
+        .am-input-control {
+            background: rgba(27, 43, 76, 1);
+            border: 1px solid rgba(112, 122, 143, 1);
+            border-radius: 40px;
+            padding: 5px 15px;
+        }
+
+        .am-list-item {
+            margin: 20px !important;
+
+        }
+
+        .am-list-item .am-input-label {
+            display: none;
+        }
+    }
+
+    .user_list {
+        height: 332px;
+        overflow: scroll;
+    }
+
+    .user_list,
+    .update_user {
+        position: relative !important;
+        top: 0 !important;
+    }
+
+    .am-list .am-list-item.am-checkbox-item .am-list-thumb .am-checkbox-inner {
+        left: 4px !important
+    }
+
+    .nav_audio {
+        font-size: 20px;
+    }
+
+
+
+
+}
+
+.one_width {
+    // position: relative;
+    // width: 500px;
+    // display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+    .user_list,
+    .update_user {
+        // position: absolute;
+        // width: 100%;
+        // top: 54px
+    }
+
+    .pen_icon {
+        width: 15px;
+        height: 15px;
+        margin-right: 10px
+    }
+
+    .edit_icon {
+        width: 18px;
+        height: 18px;
+        position: relative;
+        z-index: 10
+    }
+
+    .user_btn {
+        // position: fixed;
+        // width: 100%;
+        bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .user_btn_audio {
+        position: unset !important;
+        width: 100% !important;
+    }
+
+    .add_btn {
+        width: 160px;
+        height: 36px;
+        background: rgba(255, 255, 255, .1);
+        border-radius: 36px;
+        line-height: 36px;
+        font-size: 21px;
+        text-align: center;
+        margin: 0 auto;
+
+    }
+
+}
+
+.update_user {
+    margin: 0 auto;
+    // width: 400px;
+
+    .flexRinput {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+        line-height: 15px
+    }
+
+    .edit {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center
+    }
+
+    .gray {
+        color: #535366
+    }
+
+    .bedge {
+        width: 70px;
+        height: 25px;
+        background-color: #fff;
+        font-size: 12px;
+        border-radius: 6;
+        color: #8B8B96;
+        border: 1px solid #9999A3;
+        margin-left: 20px;
+        line-height: 25px
+    }
+
+    .label {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .bedge_sel {
+        background-color: #1687FF !important;
+        color: #fff;
+        width: 70px;
+        height: 25px;
+        font-size: 12px;
+        border-radius: 6;
+        border: 1px solid #9999A3;
+        margin-left: 20px;
+        line-height: 25px;
+
+    }
+
+
+}

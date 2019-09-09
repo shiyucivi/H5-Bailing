@@ -1,0 +1,122 @@
+#app>div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.pay-confirm {
+    width: 100%;
+    height: -webkit-fill-available;
+    background-image: url("../../assets/icon/bg_carbook.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 50px;
+}
+
+.pay-confirm .nav_audio {
+    width: 90%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.pay-confirm .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.pay-confirm .box .main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.pay-confirm .box img {
+    height: 260px;
+    width: 180px;
+    margin-right: 5%;
+}
+
+.pay-confirm .box .order-info p {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 24px;
+}
+
+.pay-confirm .box .order-info p span {
+    color: white;
+}
+
+.pay-confirm .box .order-info p:nth-child(1) {
+    margin-top: 0;
+}
+
+.pay-confirm .box .order-info p:nth-child(4) .phone-number {
+    widows: 155px;
+    height: 32px;
+    padding: 0;
+}
+
+.pay-confirm .box .order-info p:nth-child(4) span .change-btn {
+    height: 32px;
+    font-size: 18px;
+    background-color: rgb(53, 82, 121);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    margin-left: 5%;
+}
+
+.pay-confirm .box .order-info p:nth-child(4) input {
+    width: 155px;
+    margin: 0;
+    border-radius: 5px;
+    font-size: 24px;
+    border: none;
+    background-color: rgb(53, 82, 121);
+}
+
+.pay-confirm .box .order-info p:nth-child(5) span:nth-child(1) {
+    color: rgba(255, 255, 255, 0.4);
+    letter-spacing: 46px;
+}
+
+.pay-confirm .box .order-info p:nth-child(5) span:nth-child(2) {
+    color: gold;
+}
+
+.pay-confirm .box .order-info p:nth-child(5) span:nth-child(2):before {
+    content: "￥";
+}
+
+.pay-confirm .box .order-info p:nth-child(5) span:nth-child(3) {
+    padding-left: 2%;
+    font-size: 18px;
+    text-decoration: line-through;
+}
+
+.pay-confirm .box .order-info p:nth-child(5) span:nth-child(3):before {
+    content: "￥";
+}
+.pay-confirm .box .confirm-button{
+    display: flex;
+    margin-top: 40px;
+}
+.pay-confirm .box .confirm-button>div:nth-child(1){
+    margin-right:10%;
+}
+
+
+.pay-confirm .box .confirm-button input {
+    margin-top: 8%;
+    margin-bottom: 10%;
+    font-size: 24px;
+    padding: 10px 200px 10px 200px;
+    color: white;
+    background-color: #2B548E;
+    border-radius: 32px;
+    border: none;
+    outline: none;
+}

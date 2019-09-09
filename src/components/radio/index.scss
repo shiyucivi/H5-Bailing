@@ -1,0 +1,28 @@
+.radio_wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 30px;
+    font-family: PingFangSC-Regular;
+    font-weight: 400;
+    color: #fff;
+
+    .radio_wrap_item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        >span {
+            margin: 0 10px;
+        }
+    }
+
+    .icon {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+    }
+
+
+
+}

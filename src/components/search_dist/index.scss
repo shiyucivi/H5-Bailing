@@ -1,0 +1,49 @@
+.search_map_wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 30px;
+
+    .search_map {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 946px;
+        height: 80px;
+        background: rgba(0, 0, 0, .3);
+        border-radius: 40px;
+        padding: 0 20px;
+        box-sizing: border-box;
+
+        .search_map_body {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            width: 100%;
+            height: 100%;
+
+            >input {
+                background: transparent;
+                border: none;
+                color: #fff;
+                width: 100%;
+                height: 100%;
+                padding: 10px;
+                margin-right: 10px;
+
+            }
+        }
+
+        >img {
+            width: 48px;
+            height: 48px;
+            font-size: 0
+        }
+
+
+    }
+}

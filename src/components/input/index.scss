@@ -1,0 +1,47 @@
+.input_audio {
+    width: 560px;
+    height: 80px;
+    background: rgba(27, 43, 76, 1);
+    border: 2px solid rgba(112, 122, 143, 1);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 28px;
+    font-family: PingFangSC-Regular;
+    font-weight: 400;
+    padding-right: 20px;
+    box-sizing: border-box;
+
+    >input {
+        background: transparent;
+        border: none;
+        color: #fff;
+        width: 100%;
+        height: 100%;
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+
+    >input::-webkit-input-placeholder {
+        color: rgba(255, 255, 255, .5);
+
+    }
+
+    .next_button {
+        margin-right: 20px;
+    }
+
+
+
+}
+
+.hasRightButton {
+    background: rgba(255, 255, 255, .1);
+    border: none;
+
+    >input::-webkit-input-placeholder {
+        color: #fff;
+    }
+}

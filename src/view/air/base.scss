@@ -1,0 +1,93 @@
+
+  .wrap {
+      margin-top: 50px;
+  }
+
+  .flex {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center
+  }
+
+  .topAir {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-width: 70px;
+  }
+
+  .flexR {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center
+  }
+
+
+  .edit {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center
+  }
+
+  .editLeft {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center
+  }
+
+  .editspan {
+      width: 85px
+  }
+
+  .toast {
+      width: 100%;
+      padding: 10px 10px;
+      box-sizing: border-box;
+      height: auto;
+      color: #FFFFFF;
+      font-size: 12px;
+      background: #4C4C5D;
+      border-radius: 4px;
+      align-items: center;
+      line-height: 20px;
+      position: absolute;
+      top: 0px;
+      left: 0;
+      z-index: 10;
+      opacity: 0.9;
+  }
+
+  .time {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center
+  }
+
+  .smText {
+      font-size: 10px
+  }
+
+  .bgText {
+      font-size: 18px
+  }
+
+  .midText {
+
+      font-size: 13px
+  }
+
+  .gray {
+      color: #535366
+  }
+
+  .cancel {
+      color: #1687FF;
+      font-size: 16px;
+      text-align: center;
+  }

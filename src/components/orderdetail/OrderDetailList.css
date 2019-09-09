@@ -1,0 +1,69 @@
+.order-detail-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.order-detail-container img.poster {
+  width: 170px;
+  height: 260px;
+  margin-right: 5%;
+}
+
+.order-detail-items {
+  height: 260px;
+  width: 60%;
+}
+
+
+.order-detail-items::-webkit-scrollbar {
+  width: 10px;
+  /*轨道宽度*/
+  height: 100px;
+}
+
+.order-detail-item::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: white;
+}
+
+.order-detail-items::-webkit-scrollbar-track {
+  border-radius: 5px;
+  /*轨道边框圆角*/
+  background: rgba(255, 255, 255, 0);
+  /*滚动条轨道的背景颜色*/
+}
+
+.order-detail-items p:nth-child(1) {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.order-detail-items .detail-title {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 30px;
+}
+
+.order-detail-items .detail-info {
+  color: white;
+  font-size: 30px;
+}
+
+.order-detail-items .price {
+  color: gold;
+}
+
+.order-detail-items .price::before {
+  content: "￥";
+  color: gold;
+  font-size: 30px;
+}
+
+.nooverFlow {
+  overflow: unset;
+  height: auto;
+  width: 100%;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
