@@ -153,7 +153,7 @@
     "classnames": "^2.2.6",
     "css": "^2.2.4",
     "formik": "^1.5.8",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "mockjs": "^1.0.1-beta3",
     "modules": "^0.4.0",
     "moment": "^2.24.0",
