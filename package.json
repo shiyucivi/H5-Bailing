@@ -159,7 +159,7 @@
     "moment": "^2.24.0",
     "node-sass": "^4.12.0",
     "qrcode.react": "^0.9.3",
-    "qs": "^6.7.0",
+    "qs": "^6.7.3",
     "rc-form": "^2.4.6",
     "react-amap": "^1.2.8",
     "react-redux": "^7.0.2",
